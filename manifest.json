@@ -1,0 +1,10 @@
+{
+  "name": "BharatSetu Live",
+  "short_name": "BharatSetu",
+  "description": "भारत की सरकारी योजनाएं, ग्राम पंचायत, नौकरी व नागरिक सेवाएं",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#EAF4EE",
+  "theme_color": "#0B3D2E",
+  "lang": "hi"
+}
