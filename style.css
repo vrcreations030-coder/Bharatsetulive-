@@ -1,25 +1,27 @@
 :root {
-  --bg-canvas: #EAF4EE;
+  --bg-canvas: #E8F5EE;
   --bg-card: #FFFFFF;
   --bg-forest: #0B3D2E;
-  --text-main: #17251F;
-  --text-muted: #4B5E55;
-  --border-soft: #DCE6E0;
+  --text-main: #13221C;
+  --text-muted: #465B52;
+  --border-soft: #CDE3D7;
   --accent-saffron: #F28C28;
   --accent-emerald: #147D5A;
 }
 
 [data-theme="dark"] {
-  --bg-canvas: #07241B;
-  --bg-card: #0D3326;
-  --bg-forest: #051B14;
-  --text-main: #EAF4EE;
-  --text-muted: #A9C2B6;
-  --border-soft: #1F5A44;
+  --bg-canvas: #061E16;
+  --bg-card: #0C2E23;
+  --bg-forest: #04150F;
+  --text-main: #ECF7F1;
+  --text-muted: #9FC0B1;
+  --border-soft: #1B523E;
 }
 
 body {
   background-color: var(--bg-canvas);
+  background-image: radial-gradient(circle at top right, rgba(32, 166, 117, 0.12), transparent 40%),
+                    radial-gradient(circle at bottom left, rgba(242, 140, 40, 0.10), transparent 40%);
   color: var(--text-main);
   font-family: 'Inter', 'Noto Sans Devanagari', system-ui, sans-serif;
   transition: background-color 0.25s ease, color 0.25s ease;
@@ -32,31 +34,57 @@ body {
 
 /* 3D Live Bridge Logo Animation */
 .logo-3d {
-  filter: drop-shadow(0 6px 10px rgba(0, 0, 0, 0.28));
+  filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.32));
   transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 .logo-3d:hover {
-  transform: translateY(-2px) scale(1.04) rotate(-1deg);
+  transform: translateY(-2px) scale(1.06) rotate(-1.5deg);
 }
 @keyframes livePulse {
   0%, 100% { transform: scale(1); opacity: 1; }
-  50% { transform: scale(1.25); opacity: 0.75; }
+  50% { transform: scale(1.28); opacity: 0.72; }
 }
 .pulse-dot {
   transform-origin: 32px 22px;
-  animation: livePulse 2.2s infinite ease-in-out;
+  animation: livePulse 2s infinite ease-in-out;
 }
 
-/* Vibrant Gradient Colour Tiles */
+/* Vibrant Gradient Colour Tiles with Glossy Shine Effect */
 .tile-card {
-  transition: transform 0.22s ease, box-shadow 0.22s ease;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.24s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.24s ease;
+}
+.tile-card::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -120%;
+  width: 60%;
+  height: 100%;
+  background: linear-gradient(120deg, transparent, rgba(255, 255, 255, 0.28), transparent);
+  transform: skewX(-20deg);
+  transition: left 0.55s ease;
+  pointer-events: none;
+}
+.tile-card:hover::after {
+  left: 140%;
 }
 .tile-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 12px 24px -6px rgba(11, 61, 46, 0.35);
+  transform: translateY(-5px) scale(1.015);
+  box-shadow: 0 16px 28px -8px rgba(11, 61, 46, 0.35);
 }
 .tile-card:active {
-  transform: scale(0.96);
+  transform: scale(0.97);
+}
+
+/* Highlighted New Bharti Glowing Pulse Badge */
+@keyframes glowBadge {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.6); }
+  50% { box-shadow: 0 0 0 6px rgba(239, 68, 68, 0); }
+}
+.badge-hot {
+  animation: glowBadge 1.8s infinite;
 }
 
 /* Live Ticker Animation */
@@ -74,6 +102,6 @@ body {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .pulse-dot, .ticker-track { animation: none; }
-  .tile-card, .logo-3d { transition: none; }
+  .pulse-dot, .ticker-track, .badge-hot { animation: none; }
+  .tile-card, .logo-3d, .tile-card::after { transition: none; }
 }
