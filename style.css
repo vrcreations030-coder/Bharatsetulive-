@@ -1,0 +1,79 @@
+:root {
+  --bg-canvas: #EAF4EE;
+  --bg-card: #FFFFFF;
+  --bg-forest: #0B3D2E;
+  --text-main: #17251F;
+  --text-muted: #4B5E55;
+  --border-soft: #DCE6E0;
+  --accent-saffron: #F28C28;
+  --accent-emerald: #147D5A;
+}
+
+[data-theme="dark"] {
+  --bg-canvas: #07241B;
+  --bg-card: #0D3326;
+  --bg-forest: #051B14;
+  --text-main: #EAF4EE;
+  --text-muted: #A9C2B6;
+  --border-soft: #1F5A44;
+}
+
+body {
+  background-color: var(--bg-canvas);
+  color: var(--text-main);
+  font-family: 'Inter', 'Noto Sans Devanagari', system-ui, sans-serif;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+.card-surface {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-soft);
+}
+
+/* 3D Live Bridge Logo Animation */
+.logo-3d {
+  filter: drop-shadow(0 6px 10px rgba(0, 0, 0, 0.28));
+  transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+.logo-3d:hover {
+  transform: translateY(-2px) scale(1.04) rotate(-1deg);
+}
+@keyframes livePulse {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.25); opacity: 0.75; }
+}
+.pulse-dot {
+  transform-origin: 32px 22px;
+  animation: livePulse 2.2s infinite ease-in-out;
+}
+
+/* Vibrant Gradient Colour Tiles */
+.tile-card {
+  transition: transform 0.22s ease, box-shadow 0.22s ease;
+}
+.tile-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px -6px rgba(11, 61, 46, 0.35);
+}
+.tile-card:active {
+  transform: scale(0.96);
+}
+
+/* Live Ticker Animation */
+@keyframes tickerScroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+.ticker-track {
+  display: inline-flex;
+  white-space: nowrap;
+  animation: tickerScroll 28s linear infinite;
+}
+.ticker-track:hover {
+  animation-play-state: paused;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pulse-dot, .ticker-track { animation: none; }
+  .tile-card, .logo-3d { transition: none; }
+}
