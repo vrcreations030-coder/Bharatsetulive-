@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-20T12:00:00+05:30",
+  "lastUpdated": "2026-11-20T07:16:00.381Z",
   "posts": [
     {
       "id": "pm-kisan-samman-nidhi",
@@ -31,7 +31,13 @@
       ],
       "actionHint": "पोर्टल खुलने पर 'Farmers Corner' में जाकर 'New Farmer Registration' पर क्लिक करें।",
       "directApplyUrl": "https://pmkisan.gov.in/RegistrationFormNew.aspx",
-      "keywords": ["pm kisan", "kisan", "6000", "kheti", "agriculture"]
+      "keywords": [
+        "pm kisan",
+        "kisan",
+        "6000",
+        "kheti",
+        "agriculture"
+      ]
     },
     {
       "id": "pm-awas-yojana-gramin",
@@ -63,7 +69,14 @@
       ],
       "actionHint": "पोर्टल पर 'Beneficiary Details for Verification' में अपना राज्य व गाँव चुनें।",
       "directApplyUrl": "https://pmayg.nic.in/",
-      "keywords": ["pmay", "awas", "gramin", "panchayat", "gaon", "makan"]
+      "keywords": [
+        "pmay",
+        "awas",
+        "gramin",
+        "panchayat",
+        "gaon",
+        "makan"
+      ]
     },
     {
       "id": "mgnrega-egramswaraj-hub",
@@ -94,7 +107,14 @@
       ],
       "actionHint": "पोर्टल पर 'Panchayat Profile' या 'Approved Action Plan' चुनें।",
       "directApplyUrl": "https://egramswaraj.gov.in/",
-      "keywords": ["mgnrega", "nrega", "job card", "egramswaraj", "panchayat", "budget"]
+      "keywords": [
+        "mgnrega",
+        "nrega",
+        "job card",
+        "egramswaraj",
+        "panchayat",
+        "budget"
+      ]
     },
     {
       "id": "mp-asha-karyakarta-bharti",
@@ -125,7 +145,14 @@
       ],
       "actionHint": "NHM MP पोर्टल पर 'Vacancies / Notifications' सेक्शन देखें।",
       "directApplyUrl": "https://www.nhmmp.gov.in/",
-      "keywords": ["mp", "asha", "karyakarta", "bharti", "health", "chhatarpur"]
+      "keywords": [
+        "mp",
+        "asha",
+        "karyakarta",
+        "bharti",
+        "health",
+        "chhatarpur"
+      ]
     },
     {
       "id": "pm-mudra-yojana-loan",
@@ -157,7 +184,13 @@
       ],
       "actionHint": "JanSamarth पोर्टल पर 'Check Eligibility' पर क्लिक करके शुरू करें।",
       "directApplyUrl": "https://www.jansamarth.in/",
-      "keywords": ["loan", "mudra", "business", "subsidy", "bank"]
+      "keywords": [
+        "loan",
+        "mudra",
+        "business",
+        "subsidy",
+        "bank"
+      ]
     },
     {
       "id": "ssc-gd-constable-archive-2025",
@@ -173,12 +206,25 @@
       "launchDate": "2025-09-05",
       "lastDate": "2025-10-14",
       "benefits": "पे लेवल-3 (₹21,700 – ₹69,100)।",
-      "eligibility": ["10वीं उत्तीर्ण भारतीय नागरिक।"],
-      "documents": ["10वीं मार्कशीट", "जाति प्रमाण पत्र"],
-      "steps": ["आवेदन की अंतिम तिथि समाप्त हो चुकी है। यह रिकॉर्ड संदर्भ के लिए सुरक्षित है।"],
+      "eligibility": [
+        "10वीं उत्तीर्ण भारतीय नागरिक।"
+      ],
+      "documents": [
+        "10वीं मार्कशीट",
+        "जाति प्रमाण पत्र"
+      ],
+      "steps": [
+        "आवेदन की अंतिम तिथि समाप्त हो चुकी है। यह रिकॉर्ड संदर्भ के लिए सुरक्षित है।"
+      ],
       "actionHint": "नए अपडेट और रिजल्ट के लिए SSC पोर्टल देखें।",
       "directApplyUrl": "https://ssc.gov.in/",
-      "keywords": ["ssc", "gd", "police", "archive", "constable"]
+      "keywords": [
+        "ssc",
+        "gd",
+        "police",
+        "archive",
+        "constable"
+      ]
     }
   ]
 }
