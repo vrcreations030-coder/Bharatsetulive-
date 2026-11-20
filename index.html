@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>BharatSetu Live — सरकारी योजनाएं, ग्राम पंचायत, नौकरी व नागरिक सेवाएं</title>
   <meta name="description" content="BharatSetu Live: भारत की सभी केंद्र व राज्य सरकारी योजनाएं, ग्राम पंचायत अपडेट, सरकारी नौकरी, PSU भर्ती, लोन और नागरिक सेवाएं एक ही जगह।" />
+  <link rel="manifest" href="manifest.json" />
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Noto+Sans+Devanagari:wght@400;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
@@ -12,58 +13,54 @@
 <body class="min-h-screen flex flex-col pb-24 md:pb-0">
 
   <!-- Top Info & Live Ticker Bar -->
-  <div class="bg-[#07291f] text-emerald-100 text-xs py-1.5 px-3 border-b border-emerald-800/60">
+  <div class="bg-[#070B14] text-slate-200 text-xs py-1.5 px-3 border-b border-slate-800">
     <div class="max-w-7xl mx-auto flex items-center justify-between gap-3">
       <div class="flex items-center gap-2 shrink-0">
-        <span class="inline-block w-2 h-2 rounded-full bg-orange-400 animate-pulse"></span>
+        <span class="inline-block w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
         <span id="last-updated-badge" class="font-semibold">अपडेट: लोड हो रहा है...</span>
       </div>
       <div class="overflow-hidden flex-1 hidden sm:block">
-        <div id="live-ticker" class="ticker-track gap-8 text-emerald-50">
-          <span>🔥 PM किसान 20वीं किस्त अपडेट — सीधा रजिस्ट्रेशन लिंक उपलब्ध</span>
-          <span>🏡 PM आवास योजना ग्रामीण नई सूची व आवेदन प्रक्रिया</span>
-          <span>📢 मध्य प्रदेश आशा कार्यकर्ता व ग्राम पंचायत भर्ती सूचना</span>
-          <span>🔥 PM किसान 20वीं किस्त अपडेट — सीधा रजिस्ट्रेशन लिंक उपलब्ध</span>
+        <div id="live-ticker" class="ticker-track gap-8 text-slate-300">
+          <span>🔥 Indian Navy, Army, Air Force व SSC भर्ती पोर्टल लाइव</span>
+          <span>🏡 PM आवास योजना ग्रामीण व मनरेगा अपडेट</span>
+          <span>⚡ PM सूर्य घर मुफ्त बिजली योजना ₹78,000 सब्सिडी</span>
+          <span>🔥 Indian Navy, Army, Air Force व SSC भर्ती पोर्टल लाइव</span>
         </div>
       </div>
     </div>
   </div>
 
-  <!-- Main Unclipped Header -->
-  <header class="sticky top-0 z-40 bg-[#0B3D2E] text-white shadow-lg">
+  <!-- Main Unclipped Header (Royal Navy Theme) -->
+  <header class="sticky top-0 z-40 bg-[#0F172A] text-white shadow-lg border-b border-slate-800">
     <div class="max-w-7xl mx-auto px-3 sm:px-4 h-16 flex items-center justify-between gap-2">
       <!-- Brand 3D Logo -->
-      <a href="#home" onclick="navigate('home')" class="flex items-center gap-2.5 shrink-0">
+      <a href="#home" onclick="navigate('home'); return false;" class="flex items-center gap-2.5 shrink-0">
         <svg class="w-10 h-10 logo-3d" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-label="BharatSetu Live">
           <defs>
             <linearGradient id="bridgeGrad" x1="0" y1="0" x2="1" y2="1">
-              <stop offset="0%" stop-color="#147D5A"/>
-              <stop offset="100%" stop-color="#20A675"/>
-            </linearGradient>
-            <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
-              <stop offset="0%" stop-color="#125943"/>
-              <stop offset="100%" stop-color="#07291F"/>
+              <stop offset="0%" stop-color="#10B981"/>
+              <stop offset="100%" stop-color="#38BDF8"/>
             </linearGradient>
           </defs>
-          <rect width="64" height="64" rx="16" fill="url(#bgGrad)" stroke="#20A675" stroke-width="2"/>
+          <rect width="64" height="64" rx="16" fill="#1E293B" stroke="#38BDF8" stroke-width="2"/>
           <path d="M8 44 Q20 18 32 30 Q44 18 56 44" fill="none" stroke="url(#bridgeGrad)" stroke-width="6" stroke-linecap="round"/>
-          <rect x="8" y="44" width="48" height="5" rx="2.5" fill="#EAF4EE"/>
-          <circle class="pulse-dot" cx="32" cy="22" r="4.5" fill="#F28C28"/>
-          <path d="M24 15a11 11 0 0 1 16 0" fill="none" stroke="#F28C28" stroke-width="2" stroke-linecap="round" opacity="0.85"/>
+          <rect x="8" y="44" width="48" height="5" rx="2.5" fill="#F8FAFC"/>
+          <circle class="pulse-dot" cx="32" cy="22" r="4.5" fill="#F59E0B"/>
+          <path d="M24 15a11 11 0 0 1 16 0" fill="none" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" opacity="0.85"/>
         </svg>
         <div class="leading-tight">
           <div class="flex items-center gap-1.5">
-            <span class="font-extrabold text-lg tracking-tight">Bharat<span class="text-emerald-300">Setu</span></span>
-            <span class="bg-[#F28C28] text-white text-[10px] font-bold px-1.5 py-0.5 rounded-full">LIVE</span>
+            <span class="font-extrabold text-lg tracking-tight">Bharat<span class="text-emerald-400">Setu</span></span>
+            <span class="bg-amber-500 text-slate-950 text-[10px] font-extrabold px-1.5 py-0.5 rounded-full">LIVE</span>
           </div>
-          <p class="text-[10px] text-emerald-200 hidden sm:block">भारत की सरकारी जानकारी, अब एक ही जगह</p>
+          <p data-i18n="tagline" class="text-[10px] text-slate-300 hidden sm:block">भारत की सरकारी जानकारी, अब एक ही जगह</p>
         </div>
       </a>
 
       <!-- Right Controls: Theme + 12 Languages -->
       <div class="flex items-center gap-2">
-        <button id="theme-toggle" onclick="toggleTheme()" class="p-2 rounded-xl bg-emerald-900/70 hover:bg-emerald-800 border border-emerald-700/60 text-sm" title="Light / Dark Mode">🌓</button>
-        <select id="lang-select" onchange="changeLanguage(this.value)" class="bg-emerald-900/80 border border-emerald-700 text-white text-xs sm:text-sm rounded-xl px-2 py-1.5 focus:outline-none">
+        <button id="theme-toggle" onclick="toggleTheme()" class="p-2 rounded-xl bg-slate-800 hover:bg-slate-700 border border-slate-700 text-sm" title="Light / Dark Mode">🌓</button>
+        <select id="lang-select" onchange="changeLanguage(this.value)" class="bg-slate-800 border border-slate-700 text-white text-xs sm:text-sm rounded-xl px-2.5 py-1.5 focus:outline-none">
           <option value="hi">हिन्दी</option>
           <option value="en">English</option>
           <option value="bn">বাংলা</option>
@@ -80,145 +77,151 @@
       </div>
     </div>
 
-    <!-- Desktop Sticky Navigation Bar (Hidden on Mobile) -->
-    <nav class="hidden md:block bg-[#0f4d3a] border-t border-emerald-800/70">
+    <!-- Desktop Sticky Navigation Bar -->
+    <nav class="hidden md:block bg-[#1E293B] border-t border-slate-800">
       <div class="max-w-7xl mx-auto px-4 flex items-center gap-1 overflow-x-auto py-2 text-sm font-semibold">
-        <button onclick="navigate('home')" class="px-3 py-1.5 rounded-lg hover:bg-emerald-800 transition">🏠 होम</button>
-        <button onclick="navigate('schemes')" class="px-3 py-1.5 rounded-lg hover:bg-emerald-800 transition">🏛️ योजनाएं</button>
-        <button onclick="navigate('panchayat')" class="px-3 py-1.5 rounded-lg hover:bg-emerald-800 transition">🏡 ग्राम पंचायत</button>
-        <button onclick="navigate('states')" class="px-3 py-1.5 rounded-lg hover:bg-emerald-800 transition">🗺️ राज्य व जिला</button>
-        <button onclick="navigate('jobs')" class="px-3 py-1.5 rounded-lg hover:bg-emerald-800 transition">💼 नौकरी / PSU</button>
-        <button onclick="navigate('seva')" class="px-3 py-1.5 rounded-lg hover:bg-emerald-800 transition">🪪 सेवा केंद्र</button>
-        <button onclick="navigate('tools')" class="px-3 py-1.5 rounded-lg hover:bg-emerald-800 transition">🧮 टूल्स</button>
-        <button onclick="navigate('archive')" class="px-3 py-1.5 rounded-lg hover:bg-emerald-800 transition">🗄️ पुराना रिकॉर्ड</button>
+        <button onclick="navigate('home')" class="px-3 py-1.5 rounded-lg hover:bg-slate-700 transition">🏠 <span data-i18n="navHome">होम</span></button>
+        <button onclick="navigate('schemes')" class="px-3 py-1.5 rounded-lg hover:bg-slate-700 transition">🏛️ <span data-i18n="navSchemes">योजनाएं</span></button>
+        <button onclick="navigate('panchayat')" class="px-3 py-1.5 rounded-lg hover:bg-slate-700 transition">🏡 <span data-i18n="navPanchayat">ग्राम पंचायत</span></button>
+        <button onclick="navigate('states')" class="px-3 py-1.5 rounded-lg hover:bg-slate-700 transition">🗺️ <span data-i18n="navStates">राज्य व जिला</span></button>
+        <button onclick="navigate('jobs')" class="px-3 py-1.5 rounded-lg hover:bg-slate-700 transition">💼 <span data-i18n="navJobs">नौकरी / PSU</span></button>
+        <button onclick="navigate('seva')" class="px-3 py-1.5 rounded-lg hover:bg-slate-700 transition">🪪 <span data-i18n="navSeva">सेवा केंद्र</span></button>
+        <button onclick="navigate('tools')" class="px-3 py-1.5 rounded-lg hover:bg-slate-700 transition">🧮 <span data-i18n="navTools">टूल्स</span></button>
+        <button onclick="navigate('archive')" class="px-3 py-1.5 rounded-lg hover:bg-slate-700 transition">🗄️ <span data-i18n="navArchive">पुराना रिकॉर्ड</span></button>
       </div>
     </nav>
   </header>
 
   <!-- Main Dynamic Content Area -->
   <main id="app-root" class="flex-1 max-w-7xl w-full mx-auto px-3 sm:px-4 py-5 space-y-6">
-    <!-- Hero Search & Vibrant 4-Column Gradient Colour Tiles -->
-    <section class="card-surface rounded-3xl p-4 sm:p-6 shadow-sm">
-      <h1 class="text-xl sm:text-2xl font-extrabold mb-3">भारत की सभी सरकारी योजनाएं, नौकरी और ग्राम पंचायत अपडेट</h1>
+    <!-- Home Hero Search & 8 Cohesive Classy Gradient Tiles (Hides on Inner Pages) -->
+    <section id="home-hero" class="card-surface rounded-3xl p-4 sm:p-6 shadow-sm">
+      <h1 data-i18n="heroTitle" class="text-xl sm:text-2xl font-extrabold mb-3">भारत की सभी सरकारी योजनाएं, नई भर्ती और ग्राम पंचायत अपडेट</h1>
       <div class="relative mb-5">
-        <input id="global-search" type="text" placeholder="खोजें: PM Kisan, MP Asha, ग्राम पंचायत, लोन, आवास..." class="w-full rounded-2xl border border-emerald-300 dark:border-emerald-700 bg-transparent px-4 py-3 pr-12 text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500" />
+        <input id="global-search" type="text" placeholder="खोजें: Navy, Police, PM Kisan, MP, आवास, लोन..." class="w-full rounded-2xl border border-slate-300 dark:border-slate-700 bg-transparent px-4 py-3 pr-12 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500" />
         <span class="absolute right-4 top-3 text-lg">🔍</span>
       </div>
 
-      <!-- Vibrant Gradient Colour Blocks -->
       <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
-        <button onclick="navigate('jobs')" class="tile-card rounded-2xl p-4 text-white text-left bg-gradient-to-br from-emerald-500 to-emerald-700 shadow-md">
+        <button onclick="navigate('jobs')" class="tile-card rounded-2xl p-4 text-white text-left bg-gradient-to-br from-indigo-600 to-blue-700 shadow-md">
           <div class="w-10 h-10 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center text-xl mb-2">💼</div>
-          <div class="font-bold text-sm sm:text-base">सरकारी नौकरी</div>
-          <div class="text-[11px] text-emerald-100">Jobs & PSU भर्ती</div>
+          <div data-i18n="tileJobs" class="font-bold text-sm sm:text-base">सरकारी नौकरी</div>
+          <div class="text-[11px] text-indigo-100">Defence, Police, PSU</div>
         </button>
 
-        <button onclick="navigate('schemes')" class="tile-card rounded-2xl p-4 text-white text-left bg-gradient-to-br from-orange-500 to-orange-700 shadow-md">
+        <button onclick="navigate('schemes')" class="tile-card rounded-2xl p-4 text-white text-left bg-gradient-to-br from-amber-500 to-orange-600 shadow-md">
           <div class="w-10 h-10 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center text-xl mb-2">🏛️</div>
-          <div class="font-bold text-sm sm:text-base">सरकारी योजनाएं</div>
-          <div class="text-[11px] text-orange-100">केंद्र व राज्य योजना</div>
+          <div data-i18n="tileSchemes" class="font-bold text-sm sm:text-base">सरकारी योजनाएं</div>
+          <div class="text-[11px] text-amber-100">केंद्र व राज्य योजना</div>
         </button>
 
-        <button onclick="navigate('panchayat')" class="tile-card rounded-2xl p-4 text-white text-left bg-gradient-to-br from-green-600 to-green-800 shadow-md">
+        <button onclick="navigate('panchayat')" class="tile-card rounded-2xl p-4 text-white text-left bg-gradient-to-br from-emerald-600 to-teal-700 shadow-md">
           <div class="w-10 h-10 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center text-xl mb-2">🏡</div>
-          <div class="font-bold text-sm sm:text-base">ग्राम पंचायत हब</div>
-          <div class="text-[11px] text-green-100">आवास, मनरेगा, बजट</div>
+          <div data-i18n="tilePanchayat" class="font-bold text-sm sm:text-base">ग्राम पंचायत हब</div>
+          <div class="text-[11px] text-emerald-100">आवास, मनरेगा, बजट</div>
         </button>
 
-        <button onclick="navigate('states')" class="tile-card rounded-2xl p-4 text-white text-left bg-gradient-to-br from-sky-500 to-blue-700 shadow-md">
+        <button onclick="navigate('states')" class="tile-card rounded-2xl p-4 text-white text-left bg-gradient-to-br from-sky-600 to-cyan-700 shadow-md">
           <div class="w-10 h-10 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center text-xl mb-2">🗺️</div>
-          <div class="font-bold text-sm sm:text-base">राज्य व जिला पोर्टल</div>
-          <div class="text-[11px] text-sky-100">28 राज्य + 8 UT</div>
+          <div data-i18n="tileStates" class="font-bold text-sm sm:text-base">राज्य व जिला पोर्टल</div>
+          <div class="text-[11px] text-sky-100">विभाग-वार जानकारी</div>
         </button>
 
-        <button onclick="navigate('seva')" class="tile-card rounded-2xl p-4 text-white text-left bg-gradient-to-br from-indigo-500 to-indigo-700 shadow-md">
+        <button onclick="navigate('seva')" class="tile-card rounded-2xl p-4 text-white text-left bg-gradient-to-br from-violet-600 to-purple-700 shadow-md">
           <div class="w-10 h-10 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center text-xl mb-2">🪪</div>
-          <div class="font-bold text-sm sm:text-base">सरकारी सेवा केंद्र</div>
-          <div class="text-[11px] text-indigo-100">Aadhaar, PAN, राशन</div>
+          <div data-i18n="tileSeva" class="font-bold text-sm sm:text-base">सरकारी सेवा केंद्र</div>
+          <div class="text-[11px] text-violet-100">Aadhaar, PAN, राशन</div>
         </button>
 
-        <button onclick="navigate('loans')" class="tile-card rounded-2xl p-4 text-white text-left bg-gradient-to-br from-teal-500 to-teal-700 shadow-md">
+        <button onclick="navigate('loans')" class="tile-card rounded-2xl p-4 text-white text-left bg-gradient-to-br from-teal-600 to-emerald-700 shadow-md">
           <div class="w-10 h-10 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center text-xl mb-2">💰</div>
-          <div class="font-bold text-sm sm:text-base">लोन व सब्सिडी</div>
-          <div class="text-[11px] text-teal-100">मुद्रा, किसान, MSME</div>
+          <div data-i18n="tileLoans" class="font-bold text-sm sm:text-base">लोन व सब्सिडी</div>
+          <div class="text-[11px] text-teal-100">मुद्रा, PMEGP, KCC</div>
         </button>
 
-        <button onclick="navigate('tools')" class="tile-card rounded-2xl p-4 text-white text-left bg-gradient-to-br from-purple-600 to-purple-800 shadow-md">
+        <button onclick="navigate('tools')" class="tile-card rounded-2xl p-4 text-white text-left bg-gradient-to-br from-slate-700 to-slate-900 shadow-md">
           <div class="w-10 h-10 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center text-xl mb-2">🧮</div>
-          <div class="font-bold text-sm sm:text-base">नागरिक टूल्स</div>
-          <div class="text-[11px] text-purple-100">पात्रता, PIN, IFSC, EMI</div>
+          <div data-i18n="tileTools" class="font-bold text-sm sm:text-base">नागरिक टूल्स</div>
+          <div class="text-[11px] text-slate-300">पात्रता, PIN, IFSC, EMI</div>
         </button>
 
-        <button onclick="navigate('archive')" class="tile-card rounded-2xl p-4 text-white text-left bg-gradient-to-br from-pink-500 to-rose-700 shadow-md">
+        <button onclick="navigate('archive')" class="tile-card rounded-2xl p-4 text-white text-left bg-gradient-to-br from-rose-600 to-pink-700 shadow-md">
           <div class="w-10 h-10 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center text-xl mb-2">🗄️</div>
-          <div class="font-bold text-sm sm:text-base">पुराना रिकॉर्ड</div>
-          <div class="text-[11px] text-pink-100">Permanent Archive</div>
+          <div data-i18n="tileArchive" class="font-bold text-sm sm:text-base">पुराना रिकॉर्ड</div>
+          <div class="text-[11px] text-rose-100">Permanent Archive</div>
         </button>
       </div>
     </section>
 
-    <!-- Dynamic Posts Container -->
+    <!-- Back Bar (Only on Inner Pages) -->
+    <div id="inner-back-bar" class="hidden">
+      <button onclick="navigate('home')" class="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-white text-xs font-bold shadow-sm">
+        ← <span data-i18n="backHome">होम पेज पर वापस जाएं</span>
+      </button>
+    </div>
+
+    <!-- Dynamic Page Container -->
     <section id="content-feed" class="space-y-4">
       <div class="card-surface p-6 rounded-2xl text-center text-sm opacity-75">अपडेट्स लोड हो रहे हैं...</div>
     </section>
   </main>
 
-  <!-- Rearranged Clean Forest-Green Footer -->
-  <footer class="bg-[#0B3D2E] text-emerald-100 mt-10 pt-8 pb-24 md:pb-8 px-4 border-t border-emerald-800">
+  <!-- Clean Royal-Navy Footer -->
+  <footer class="bg-[#0F172A] text-slate-300 mt-10 pt-8 pb-24 md:pb-8 px-4 border-t border-slate-800">
     <div class="max-w-7xl mx-auto space-y-6">
-      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-emerald-800/80 pb-5">
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-slate-800 pb-5">
         <div class="flex items-center gap-3">
           <svg class="w-10 h-10 logo-3d" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-            <rect width="64" height="64" rx="16" fill="#07291F" stroke="#20A675" stroke-width="2"/>
-            <path d="M8 44 Q20 18 32 30 Q44 18 56 44" fill="none" stroke="#20A675" stroke-width="6" stroke-linecap="round"/>
-            <rect x="8" y="44" width="48" height="5" rx="2.5" fill="#EAF4EE"/>
-            <circle cx="32" cy="22" r="4.5" fill="#F28C28"/>
+            <rect width="64" height="64" rx="16" fill="#1E293B" stroke="#38BDF8" stroke-width="2"/>
+            <path d="M8 44 Q20 18 32 30 Q44 18 56 44" fill="none" stroke="#10B981" stroke-width="6" stroke-linecap="round"/>
+            <rect x="8" y="44" width="48" height="5" rx="2.5" fill="#F8FAFC"/>
+            <circle cx="32" cy="22" r="4.5" fill="#F59E0B"/>
           </svg>
           <div>
-            <div class="font-extrabold text-white text-lg">Bharat<span class="text-emerald-300">Setu</span> <span class="bg-[#F28C28] text-[10px] px-1.5 py-0.5 rounded-full">LIVE</span></div>
-            <p class="text-xs text-emerald-200">VPO Basari, Distt. Chhatarpur, Madhya Pradesh – 471105, India</p>
+            <div class="font-extrabold text-white text-lg">Bharat<span class="text-emerald-400">Setu</span> <span class="bg-amber-500 text-slate-950 text-[10px] font-extrabold px-1.5 py-0.5 rounded-full">LIVE</span></div>
+            <p class="text-xs text-slate-400">VPO Basari, Distt. Chhatarpur, Madhya Pradesh – 471105, India</p>
           </div>
         </div>
       </div>
 
       <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-sm">
         <div>
-          <h3 class="text-amber-300 font-bold text-xs uppercase tracking-wider mb-2.5">Quick Access</h3>
+          <h3 class="text-amber-400 font-bold text-xs uppercase tracking-wider mb-2.5">Quick Access</h3>
           <ul class="space-y-1.5 text-xs sm:text-sm">
-            <li><a href="#home" onclick="navigate('home')" class="hover:text-white">Home</a></li>
-            <li><a href="#panchayat" onclick="navigate('panchayat')" class="hover:text-white">Gram Panchayat Hub</a></li>
-            <li><a href="#seva" onclick="navigate('seva')" class="hover:text-white">Sarkari Seva Kendra</a></li>
-            <li><a href="#tools" onclick="navigate('tools')" class="hover:text-white">Citizen Tools</a></li>
-            <li><a href="#archive" onclick="navigate('archive')" class="hover:text-white">Permanent Archive</a></li>
+            <li><a href="#home" onclick="navigate('home'); return false;" class="hover:text-white">Home</a></li>
+            <li><a href="#panchayat" onclick="navigate('panchayat'); return false;" class="hover:text-white">Gram Panchayat Hub</a></li>
+            <li><a href="#seva" onclick="navigate('seva'); return false;" class="hover:text-white">Sarkari Seva Kendra</a></li>
+            <li><a href="#tools" onclick="navigate('tools'); return false;" class="hover:text-white">Citizen Tools</a></li>
+            <li><a href="#archive" onclick="navigate('archive'); return false;" class="hover:text-white">Permanent Archive</a></li>
           </ul>
         </div>
         <div>
-          <h3 class="text-amber-300 font-bold text-xs uppercase tracking-wider mb-2.5">Trust & Legal</h3>
+          <h3 class="text-amber-400 font-bold text-xs uppercase tracking-wider mb-2.5">Trust & Legal</h3>
           <ul class="space-y-1.5 text-xs sm:text-sm">
-            <li><a href="#about" onclick="navigate('about')" class="hover:text-white">About Us</a></li>
-            <li><a href="#contact" onclick="navigate('contact')" class="hover:text-white">Contact Us</a></li>
-            <li><a href="#privacy" onclick="navigate('privacy')" class="hover:text-white">Privacy Policy</a></li>
-            <li><a href="#disclaimer" onclick="navigate('disclaimer')" class="hover:text-white">Disclaimer</a></li>
-            <li><a href="#terms" onclick="navigate('terms')" class="hover:text-white">Terms & Conditions</a></li>
+            <li><a href="#about" onclick="navigate('about'); return false;" class="hover:text-white">About Us</a></li>
+            <li><a href="#contact" onclick="navigate('contact'); return false;" class="hover:text-white">Contact Us</a></li>
+            <li><a href="#privacy" onclick="navigate('privacy'); return false;" class="hover:text-white">Privacy Policy</a></li>
+            <li><a href="#disclaimer" onclick="navigate('disclaimer'); return false;" class="hover:text-white">Disclaimer</a></li>
+            <li><a href="#terms" onclick="navigate('terms'); return false;" class="hover:text-white">Terms & Conditions</a></li>
           </ul>
         </div>
       </div>
 
-      <div class="border-t border-emerald-800/80 pt-4 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 text-xs text-emerald-300">
+      <div class="border-t border-slate-800 pt-4 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 text-xs text-slate-400">
         <p>© 2026 BharatSetu Live. Independent informational portal — not an official government website.</p>
-        <a href="#admin" onclick="navigate('admin')" class="px-2.5 py-1 rounded-lg bg-emerald-900/80 border border-emerald-700 text-emerald-200 hover:text-white">🔒 Admin</a>
+        <a href="#admin" onclick="navigate('admin'); return false;" class="px-2.5 py-1 rounded-lg bg-slate-800 border border-slate-700 text-slate-200 hover:text-white">🔒 Admin</a>
       </div>
     </div>
   </footer>
 
   <!-- Mobile Bottom Navigation Bar -->
-  <nav class="md:hidden fixed bottom-0 left-0 right-0 z-50 bg-white dark:bg-[#0D3326] border-t border-emerald-200 dark:border-emerald-800 shadow-lg">
+  <nav class="md:hidden fixed bottom-0 left-0 right-0 z-50 bg-white dark:bg-[#0F172A] border-t border-slate-200 dark:border-slate-800 shadow-lg">
     <div class="grid grid-cols-5 text-[11px] font-semibold text-center py-2">
-      <button onclick="navigate('home')" class="flex flex-col items-center gap-0.5 text-orange-600"><span>🏠</span><span>होम</span></button>
-      <button onclick="navigate('schemes')" class="flex flex-col items-center gap-0.5"><span>🏛️</span><span>योजना</span></button>
-      <button onclick="navigate('panchayat')" class="flex flex-col items-center gap-0.5"><span>🏡</span><span>पंचायत</span></button>
-      <button onclick="navigate('jobs')" class="flex flex-col items-center gap-0.5"><span>💼</span><span>नौकरी</span></button>
-      <button onclick="navigate('tools')" class="flex flex-col items-center gap-0.5"><span>🧮</span><span>टूल्स</span></button>
+      <button onclick="navigate('home')" class="flex flex-col items-center gap-0.5 text-indigo-600 dark:text-indigo-400"><span>🏠</span><span data-i18n="navHome">होम</span></button>
+      <button onclick="navigate('schemes')" class="flex flex-col items-center gap-0.5"><span>🏛️</span><span data-i18n="navSchemes">योजना</span></button>
+      <button onclick="navigate('panchayat')" class="flex flex-col items-center gap-0.5"><span>🏡</span><span data-i18n="navPanchayat">पंचायत</span></button>
+      <button onclick="navigate('jobs')" class="flex flex-col items-center gap-0.5"><span>💼</span><span data-i18n="navJobs">नौकरी</span></button>
+      <button onclick="navigate('tools')" class="flex flex-col items-center gap-0.5"><span>🧮</span><span data-i18n="navTools">टूल्स</span></button>
     </div>
   </nav>
 
@@ -233,12 +236,33 @@
       const saved = localStorage.getItem('bs_theme');
       if (saved) document.documentElement.setAttribute('data-theme', saved);
     })();
-    function changeLanguage(lang) {
-      localStorage.setItem('bs_lang', lang);
-    }
   </script>
   <script src="js/app.js"></script>
   <script src="js/tools.js"></script>
   <script src="js/admin.js"></script>
+  <script>
+    // Separate Page Mode Controller (Hides Home Boxes on Inner Pages + Browser Back Support)
+    const _finalNav = window.navigate;
+    window.navigate = function(page, skipHash) {
+      const hero = document.getElementById('home-hero');
+      const backBar = document.getElementById('inner-back-bar');
+      if (page === 'home') {
+        if (hero) hero.classList.remove('hidden');
+        if (backBar) backBar.classList.add('hidden');
+      } else {
+        if (hero) hero.classList.add('hidden');
+        if (backBar) backBar.classList.remove('hidden');
+      }
+      if (!skipHash && location.hash !== '#' + page) {
+        history.pushState(null, '', '#' + page);
+      }
+      if (typeof _finalNav === 'function') _finalNav(page);
+    };
+
+    window.addEventListener('hashchange', () => {
+      const page = location.hash.replace('#', '') || 'home';
+      window.navigate(page, true);
+    });
+  </script>
 </body>
 </html>
