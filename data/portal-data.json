@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-20T13:15:00+05:30",
+  "lastUpdated": "2026-11-20T16:47:44.941Z",
   "posts": [
     {
       "id": "indian-navy-recruitment",
@@ -16,12 +16,30 @@
       "launchDate": "2026-11-01",
       "lastDate": "2026-12-31",
       "benefits": "अग्निवीर पैकेज एवं नौसेना के नियमानुसार वेतन, भत्ते व सेवा निधि।",
-      "eligibility": ["10वीं / 12वीं (PCM) या स्नातक (पद के अनुसार)।", "अविवाहित भारतीय नागरिक (आधिकारिक अधिसूचना के अनुसार आयु सीमा)।"],
-      "documents": ["10वीं/12वीं मार्कशीट", "निवास प्रमाण पत्र", "पासपोर्ट फोटो व हस्ताक्षर"],
-      "steps": ["सीधे Join Indian Navy आधिकारिक पोर्टल पर जाएं।", "नया अकाउंट रजिस्टर करें और Current Opportunities में आवेदन करें।"],
+      "eligibility": [
+        "10वीं / 12वीं (PCM) या स्नातक (पद के अनुसार)।",
+        "अविवाहित भारतीय नागरिक (आधिकारिक अधिसूचना के अनुसार आयु सीमा)।"
+      ],
+      "documents": [
+        "10वीं/12वीं मार्कशीट",
+        "निवास प्रमाण पत्र",
+        "पासपोर्ट फोटो व हस्ताक्षर"
+      ],
+      "steps": [
+        "सीधे Join Indian Navy आधिकारिक पोर्टल पर जाएं।",
+        "नया अकाउंट रजिस्टर करें और Current Opportunities में आवेदन करें।"
+      ],
       "actionHint": "पोर्टल पर 'Candidate Login / Register' पर क्लिक करके आवेदन करें।",
       "directApplyUrl": "https://www.joinindiannavy.gov.in/",
-      "keywords": ["navy", "indian navy", "defence", "agniveer", "ssr", "mr", "bharti"]
+      "keywords": [
+        "navy",
+        "indian navy",
+        "defence",
+        "agniveer",
+        "ssr",
+        "mr",
+        "bharti"
+      ]
     },
     {
       "id": "indian-army-agniveer",
@@ -38,12 +56,29 @@
       "launchDate": "2026-11-01",
       "lastDate": "2026-12-31",
       "benefits": "भारतीय सेना के नियमानुसार मासिक वेतन, रिस्क अलाउंस और सेवा निधि पैकेज।",
-      "eligibility": ["8वीं / 10वीं / 12वीं उत्तीर्ण (ट्रेड के अनुसार)।", "शारीरिक मानदंड एवं मेडिकल फिटनेस अनिवार्य।"],
-      "documents": ["शैक्षणिक प्रमाण पत्र", "निवास व जाति प्रमाण पत्र", "चरित्र प्रमाण पत्र"],
-      "steps": ["Join Indian Army की आधिकारिक वेबसाइट पर जाएं।", "Agnipath सेक्शन में जाकर पात्रता जांचें और रजिस्ट्रेशन करें।"],
+      "eligibility": [
+        "8वीं / 10वीं / 12वीं उत्तीर्ण (ट्रेड के अनुसार)।",
+        "शारीरिक मानदंड एवं मेडिकल फिटनेस अनिवार्य।"
+      ],
+      "documents": [
+        "शैक्षणिक प्रमाण पत्र",
+        "निवास व जाति प्रमाण पत्र",
+        "चरित्र प्रमाण पत्र"
+      ],
+      "steps": [
+        "Join Indian Army की आधिकारिक वेबसाइट पर जाएं।",
+        "Agnipath सेक्शन में जाकर पात्रता जांचें और रजिस्ट्रेशन करें।"
+      ],
       "actionHint": "पोर्टल पर 'Agnipath' → 'Apply Online' विकल्प चुनें।",
       "directApplyUrl": "https://joinindianarmy.nic.in/",
-      "keywords": ["army", "indian army", "defence", "agniveer", "rally", "bharti"]
+      "keywords": [
+        "army",
+        "indian army",
+        "defence",
+        "agniveer",
+        "rally",
+        "bharti"
+      ]
     },
     {
       "id": "indian-airforce-agnipath",
@@ -60,12 +95,25 @@
       "launchDate": "2026-11-01",
       "lastDate": "2026-12-31",
       "benefits": "वायुसेना अग्निवीर वेतन पैकेज व सेवा निधि।",
-      "eligibility": ["12वीं उत्तीर्ण (न्यूनतम 50% अंक) या 3 वर्षीय इंजीनियरिंग डिप्लोमा।"],
-      "documents": ["10वीं व 12वीं मार्कशीट", "फोटो व अंगूठे का निशान"],
-      "steps": ["आधिकारिक Agnipath Vayu पोर्टल पर जाएं और नया रजिस्ट्रेशन करें।"],
+      "eligibility": [
+        "12वीं उत्तीर्ण (न्यूनतम 50% अंक) या 3 वर्षीय इंजीनियरिंग डिप्लोमा।"
+      ],
+      "documents": [
+        "10वीं व 12वीं मार्कशीट",
+        "फोटो व अंगूठे का निशान"
+      ],
+      "steps": [
+        "आधिकारिक Agnipath Vayu पोर्टल पर जाएं और नया रजिस्ट्रेशन करें।"
+      ],
       "actionHint": "पोर्टल पर 'Candidate Login' → 'New User Register' चुनें।",
       "directApplyUrl": "https://agnipathvayu.cdac.in/",
-      "keywords": ["airforce", "air force", "vayu", "defence", "agniveer"]
+      "keywords": [
+        "airforce",
+        "air force",
+        "vayu",
+        "defence",
+        "agniveer"
+      ]
     },
     {
       "id": "ssc-gd-police-capf",
@@ -82,12 +130,29 @@
       "launchDate": "2026-11-01",
       "lastDate": "2026-12-31",
       "benefits": "केंद्र सरकार के पे लेवल-3 से लेवल-7 तक का नियमित वेतनमान।",
-      "eligibility": ["10वीं / 12वीं / स्नातक (परीक्षा के अनुसार)।"],
-      "documents": ["OTR रजिस्ट्रेशन", "शैक्षणिक मार्कशीट", "जाति प्रमाण पत्र"],
-      "steps": ["SSC के नए आधिकारिक पोर्टल पर One Time Registration (OTR) करें और लॉगिन करके फॉर्म भरें।"],
+      "eligibility": [
+        "10वीं / 12वीं / स्नातक (परीक्षा के अनुसार)।"
+      ],
+      "documents": [
+        "OTR रजिस्ट्रेशन",
+        "शैक्षणिक मार्कशीट",
+        "जाति प्रमाण पत्र"
+      ],
+      "steps": [
+        "SSC के नए आधिकारिक पोर्टल पर One Time Registration (OTR) करें और लॉगिन करके फॉर्म भरें।"
+      ],
       "actionHint": "पोर्टल पर 'Login or Register' पर क्लिक करके OTR पूरा करें।",
       "directApplyUrl": "https://ssc.gov.in/",
-      "keywords": ["ssc", "police", "gd", "bsf", "crpf", "cisf", "cgl", "chsl"]
+      "keywords": [
+        "ssc",
+        "police",
+        "gd",
+        "bsf",
+        "crpf",
+        "cisf",
+        "cgl",
+        "chsl"
+      ]
     },
     {
       "id": "mp-esb-police-bharti",
@@ -104,12 +169,28 @@
       "launchDate": "2026-11-01",
       "lastDate": "2026-12-31",
       "benefits": "मध्य प्रदेश राज्य सरकार का नियमित वेतनमान व भत्ते।",
-      "eligibility": ["10वीं / 12वीं / स्नातक व मध्य प्रदेश रोजगार पंजीयन।"],
-      "documents": ["MP रोजगार पंजीयन", "मूल निवासी प्रमाण पत्र", "मार्कशीट"],
-      "steps": ["MPESB पोर्टल पर जाकर नवीनतम नियम पुस्तिका पढ़ें और Online Form भरें।"],
+      "eligibility": [
+        "10वीं / 12वीं / स्नातक व मध्य प्रदेश रोजगार पंजीयन।"
+      ],
+      "documents": [
+        "MP रोजगार पंजीयन",
+        "मूल निवासी प्रमाण पत्र",
+        "मार्कशीट"
+      ],
+      "steps": [
+        "MPESB पोर्टल पर जाकर नवीनतम नियम पुस्तिका पढ़ें और Online Form भरें।"
+      ],
       "actionHint": "पोर्टल पर 'Online Form' सेक्शन में सक्रिय भर्ती चुनें।",
       "directApplyUrl": "https://esb.mp.gov.in/",
-      "keywords": ["mp", "police", "mp police", "esb", "vyapam", "patwari", "bharti"]
+      "keywords": [
+        "mp",
+        "police",
+        "mp police",
+        "esb",
+        "vyapam",
+        "patwari",
+        "bharti"
+      ]
     },
     {
       "id": "isro-careers-psu",
@@ -126,12 +207,26 @@
       "launchDate": "2026-11-01",
       "lastDate": "2026-12-31",
       "benefits": "केंद्र सरकार के उच्च वेतनमान व वैज्ञानिक सुविधाएं।",
-      "eligibility": ["ITI / डिप्लोमा / B.Tech / स्नातक (पद के अनुसार)।"],
-      "documents": ["डिग्री / डिप्लोमा / ITI प्रमाण पत्र", "फोटो व हस्ताक्षर"],
-      "steps": ["ISRO Careers पोर्टल पर सक्रिय विज्ञापन चुनें और ऑनलाइन आवेदन करें।"],
+      "eligibility": [
+        "ITI / डिप्लोमा / B.Tech / स्नातक (पद के अनुसार)।"
+      ],
+      "documents": [
+        "डिग्री / डिप्लोमा / ITI प्रमाण पत्र",
+        "फोटो व हस्ताक्षर"
+      ],
+      "steps": [
+        "ISRO Careers पोर्टल पर सक्रिय विज्ञापन चुनें और ऑनलाइन आवेदन करें।"
+      ],
       "actionHint": "पोर्टल पर 'Current Opportunities' में सक्रिय पद देखें।",
       "directApplyUrl": "https://www.isro.gov.in/Careers.html",
-      "keywords": ["isro", "psu", "govt company", "scientist", "iti", "engineer"]
+      "keywords": [
+        "isro",
+        "psu",
+        "govt company",
+        "scientist",
+        "iti",
+        "engineer"
+      ]
     },
     {
       "id": "ntpc-ongc-bhel-psu",
@@ -148,12 +243,26 @@
       "launchDate": "2026-11-01",
       "lastDate": "2026-12-31",
       "benefits": "महारत्न PSU वेतनमान, आवास, मेडिकल व अन्य भत्ते।",
-      "eligibility": ["B.E./B.Tech / डिप्लोमा / ITI (पद के अनुसार)।"],
-      "documents": ["शैक्षणिक प्रमाण पत्र", "GATE स्कोर (यदि लागू हो)"],
-      "steps": ["NTPC Careers पोर्टल पर जाएं और सक्रिय विज्ञापन के सामने Apply करें।"],
+      "eligibility": [
+        "B.E./B.Tech / डिप्लोमा / ITI (पद के अनुसार)।"
+      ],
+      "documents": [
+        "शैक्षणिक प्रमाण पत्र",
+        "GATE स्कोर (यदि लागू हो)"
+      ],
+      "steps": [
+        "NTPC Careers पोर्टल पर जाएं और सक्रिय विज्ञापन के सामने Apply करें।"
+      ],
       "actionHint": "पोर्टल पर 'Jobs at NTPC' में जाकर ऑनलाइन आवेदन करें।",
       "directApplyUrl": "https://careers.ntpc.co.in/",
-      "keywords": ["ntpc", "psu", "maharatna", "govt company", "engineer", "diploma"]
+      "keywords": [
+        "ntpc",
+        "psu",
+        "maharatna",
+        "govt company",
+        "engineer",
+        "diploma"
+      ]
     },
     {
       "id": "bhel-psu-careers",
@@ -170,12 +279,25 @@
       "launchDate": "2026-11-01",
       "lastDate": "2026-12-31",
       "benefits": "PSU पे स्केल व भत्ते।",
-      "eligibility": ["ITI / डिप्लोमा / इंजीनियरिंग स्नातक।"],
-      "documents": ["शैक्षणिक प्रमाण पत्र", "जाति प्रमाण पत्र"],
-      "steps": ["BHEL Careers पोर्टल पर Current Job Openings देखें और आवेदन करें।"],
+      "eligibility": [
+        "ITI / डिप्लोमा / इंजीनियरिंग स्नातक।"
+      ],
+      "documents": [
+        "शैक्षणिक प्रमाण पत्र",
+        "जाति प्रमाण पत्र"
+      ],
+      "steps": [
+        "BHEL Careers पोर्टल पर Current Job Openings देखें और आवेदन करें।"
+      ],
       "actionHint": "पोर्टल पर 'Current Job Openings' चुनें।",
       "directApplyUrl": "https://careers.bhel.in/",
-      "keywords": ["bhel", "psu", "govt company", "apprentice", "iti"]
+      "keywords": [
+        "bhel",
+        "psu",
+        "govt company",
+        "apprentice",
+        "iti"
+      ]
     },
     {
       "id": "railway-rrb-bharti",
@@ -192,12 +314,27 @@
       "launchDate": "2026-11-01",
       "lastDate": "2026-12-31",
       "benefits": "केंद्र सरकार का रेलवे वेतनमान, रेलवे पास व मेडिकल सुविधा।",
-      "eligibility": ["10वीं / ITI / 12वीं / स्नातक (पद के अनुसार)।"],
-      "documents": ["शैक्षणिक मार्कशीट", "जाति/EWS प्रमाण पत्र"],
-      "steps": ["RRB के आधिकारिक पोर्टल पर नया अकाउंट बनाएं और पद चुनकर फॉर्म भरें।"],
+      "eligibility": [
+        "10वीं / ITI / 12वीं / स्नातक (पद के अनुसार)।"
+      ],
+      "documents": [
+        "शैक्षणिक मार्कशीट",
+        "जाति/EWS प्रमाण पत्र"
+      ],
+      "steps": [
+        "RRB के आधिकारिक पोर्टल पर नया अकाउंट बनाएं और पद चुनकर फॉर्म भरें।"
+      ],
       "actionHint": "पोर्टल पर 'Apply' → 'Create an Account' पर क्लिक करें।",
       "directApplyUrl": "https://www.rrbapply.gov.in/",
-      "keywords": ["railway", "rrb", "ntpc", "group d", "alp", "rpf", "train"]
+      "keywords": [
+        "railway",
+        "rrb",
+        "ntpc",
+        "group d",
+        "alp",
+        "rpf",
+        "train"
+      ]
     },
     {
       "id": "mp-asha-karyakarta-bharti",
@@ -214,12 +351,27 @@
       "launchDate": "2026-11-01",
       "lastDate": "2026-12-15",
       "benefits": "नियमानुसार मासिक मानदेय एवं प्रोत्साहन राशि।",
-      "eligibility": ["स्थानीय ग्राम/वार्ड निवासी महिला।", "न्यूनतम 10वीं/12वीं उत्तीर्ण।"],
-      "documents": ["10वीं/12वीं मार्कशीट", "निवास प्रमाण पत्र"],
-      "steps": ["NHM MP पोर्टल पर नोटिफिकेशन चेक करें और संबंधित BMO कार्यालय में आवेदन जमा करें।"],
+      "eligibility": [
+        "स्थानीय ग्राम/वार्ड निवासी महिला।",
+        "न्यूनतम 10वीं/12वीं उत्तीर्ण।"
+      ],
+      "documents": [
+        "10वीं/12वीं मार्कशीट",
+        "निवास प्रमाण पत्र"
+      ],
+      "steps": [
+        "NHM MP पोर्टल पर नोटिफिकेशन चेक करें और संबंधित BMO कार्यालय में आवेदन जमा करें।"
+      ],
       "actionHint": "NHM MP पोर्टल पर 'Vacancies / Notifications' सेक्शन देखें।",
       "directApplyUrl": "https://www.nhmmp.gov.in/",
-      "keywords": ["mp", "asha", "karyakarta", "bharti", "health", "chhatarpur"]
+      "keywords": [
+        "mp",
+        "asha",
+        "karyakarta",
+        "bharti",
+        "health",
+        "chhatarpur"
+      ]
     },
     {
       "id": "pm-kisan-samman-nidhi",
@@ -236,12 +388,25 @@
       "launchDate": "2019-02-24",
       "lastDate": "2026-12-31",
       "benefits": "₹6,000 प्रति वर्ष सीधे DBT के माध्यम से बैंक खाते में।",
-      "eligibility": ["भारत के लघु एवं सीमांत किसान परिवार जिनके नाम कृषि योग्य भूमि है।"],
-      "documents": ["भूमि की खतौनी / खसरा", "DBT लिंक्ड बैंक पासबुक"],
-      "steps": ["सीधे आधिकारिक रजिस्ट्रेशन लिंक पर जाएं और New Farmer Registration भरें।"],
+      "eligibility": [
+        "भारत के लघु एवं सीमांत किसान परिवार जिनके नाम कृषि योग्य भूमि है।"
+      ],
+      "documents": [
+        "भूमि की खतौनी / खसरा",
+        "DBT लिंक्ड बैंक पासबुक"
+      ],
+      "steps": [
+        "सीधे आधिकारिक रजिस्ट्रेशन लिंक पर जाएं और New Farmer Registration भरें।"
+      ],
       "actionHint": "पोर्टल पर 'Farmers Corner' → 'New Farmer Registration' चुनें।",
       "directApplyUrl": "https://pmkisan.gov.in/RegistrationFormNew.aspx",
-      "keywords": ["pm kisan", "kisan", "6000", "kheti", "agriculture"]
+      "keywords": [
+        "pm kisan",
+        "kisan",
+        "6000",
+        "kheti",
+        "agriculture"
+      ]
     },
     {
       "id": "pm-surya-ghar-muft-bijli",
@@ -258,12 +423,25 @@
       "launchDate": "2024-02-13",
       "lastDate": "2026-12-31",
       "benefits": "1kW पर ₹30,000, 2kW पर ₹60,000 और 3kW या अधिक पर ₹78,000 की सीधी सब्सिडी।",
-      "eligibility": ["भारतीय परिवार जिनके पास अपना घर और वैध बिजली कनेक्शन है।"],
-      "documents": ["पिछले माह का बिजली बिल", "बैंक खाता विवरण"],
-      "steps": ["PM Surya Ghar पोर्टल पर जाएं, अपना राज्य व बिजली कंपनी चुनें और कंज्यूमर नंबर से रजिस्टर करें।"],
+      "eligibility": [
+        "भारतीय परिवार जिनके पास अपना घर और वैध बिजली कनेक्शन है।"
+      ],
+      "documents": [
+        "पिछले माह का बिजली बिल",
+        "बैंक खाता विवरण"
+      ],
+      "steps": [
+        "PM Surya Ghar पोर्टल पर जाएं, अपना राज्य व बिजली कंपनी चुनें और कंज्यूमर नंबर से रजिस्टर करें।"
+      ],
       "actionHint": "पोर्टल पर 'Apply for Rooftop Solar' पर क्लिक करें।",
       "directApplyUrl": "https://pmsuryaghar.gov.in/",
-      "keywords": ["solar", "bijli", "surya ghar", "muft bijli", "subsidy"]
+      "keywords": [
+        "solar",
+        "bijli",
+        "surya ghar",
+        "muft bijli",
+        "subsidy"
+      ]
     },
     {
       "id": "pm-vishwakarma-yojana",
@@ -280,12 +458,26 @@
       "launchDate": "2023-09-17",
       "lastDate": "2026-12-31",
       "benefits": "₹500/दिन ट्रेनिंग स्टाइपेंड, ₹15,000 ई-वाउचर टूलकिट और बिना गारंटी ₹3 लाख तक लोन।",
-      "eligibility": ["18 वर्ष या अधिक आयु के 18 निर्धारित पारंपरिक कारीगर।"],
-      "documents": ["राशन कार्ड", "बैंक पासबुक", "मोबाइल नंबर"],
-      "steps": ["आधिकारिक PM Vishwakarma पोर्टल या नजदीकी CSC केंद्र से बायोमेट्रिक आवेदन करें।"],
+      "eligibility": [
+        "18 वर्ष या अधिक आयु के 18 निर्धारित पारंपरिक कारीगर।"
+      ],
+      "documents": [
+        "राशन कार्ड",
+        "बैंक पासबुक",
+        "मोबाइल नंबर"
+      ],
+      "steps": [
+        "आधिकारिक PM Vishwakarma पोर्टल या नजदीकी CSC केंद्र से बायोमेट्रिक आवेदन करें।"
+      ],
       "actionHint": "पोर्टल पर 'How to Register' व CSC लॉगिन विवरण देखें।",
       "directApplyUrl": "https://pmvishwakarma.gov.in/",
-      "keywords": ["vishwakarma", "karigar", "toolkit", "15000", "msme"]
+      "keywords": [
+        "vishwakarma",
+        "karigar",
+        "toolkit",
+        "15000",
+        "msme"
+      ]
     },
     {
       "id": "ayushman-bharat-pmjay",
@@ -302,12 +494,26 @@
       "launchDate": "2018-09-23",
       "lastDate": "2026-12-31",
       "benefits": "प्रति परिवार प्रति वर्ष ₹5,00,000 तक का कैशलेस स्वास्थ्य बीमा।",
-      "eligibility": ["SECC/राशन कार्ड पात्र परिवार एवं 70+ आयु के सभी वरिष्ठ नागरिक।"],
-      "documents": ["राशन कार्ड / समग्र आईडी", "मोबाइल नंबर"],
-      "steps": ["NHA Beneficiary पोर्टल पर मोबाइल OTP से लॉगिन करें, पात्रता जांचें और e-KYC से कार्ड डाउनलोड करें।"],
+      "eligibility": [
+        "SECC/राशन कार्ड पात्र परिवार एवं 70+ आयु के सभी वरिष्ठ नागरिक।"
+      ],
+      "documents": [
+        "राशन कार्ड / समग्र आईडी",
+        "मोबाइल नंबर"
+      ],
+      "steps": [
+        "NHA Beneficiary पोर्टल पर मोबाइल OTP से लॉगिन करें, पात्रता जांचें और e-KYC से कार्ड डाउनलोड करें।"
+      ],
       "actionHint": "पोर्टल पर 'Beneficiary' चुनकर मोबाइल नंबर से लॉगिन करें।",
       "directApplyUrl": "https://beneficiary.nha.gov.in/",
-      "keywords": ["ayushman", "pmjay", "health", "hospital", "5 lakh", "card"]
+      "keywords": [
+        "ayushman",
+        "pmjay",
+        "health",
+        "hospital",
+        "5 lakh",
+        "card"
+      ]
     },
     {
       "id": "mp-ladli-behna-yojana",
@@ -324,12 +530,25 @@
       "launchDate": "2023-03-05",
       "lastDate": "2026-12-31",
       "benefits": "प्रति माह ₹1,250 सीधे DBT सक्रिय बैंक खाते में।",
-      "eligibility": ["मध्य प्रदेश की स्थानीय निवासी विवाहित/विधवा/परित्यक्ता महिलाएं (21–60 वर्ष)।"],
-      "documents": ["समग्र आईडी (e-KYC पूर्ण)", "DBT लिंक्ड बैंक खाता"],
-      "steps": ["आधिकारिक लाड़ली बहना पोर्टल पर जाकर 'आवेदन एवं भुगतान की स्थिति' जांचें।"],
+      "eligibility": [
+        "मध्य प्रदेश की स्थानीय निवासी विवाहित/विधवा/परित्यक्ता महिलाएं (21–60 वर्ष)।"
+      ],
+      "documents": [
+        "समग्र आईडी (e-KYC पूर्ण)",
+        "DBT लिंक्ड बैंक खाता"
+      ],
+      "steps": [
+        "आधिकारिक लाड़ली बहना पोर्टल पर जाकर 'आवेदन एवं भुगतान की स्थिति' जांचें।"
+      ],
       "actionHint": "पोर्टल पर 'आवेदन एवं भुगतान की स्थिति' पर क्लिक करें।",
       "directApplyUrl": "https://cmladlibahna.mp.gov.in/",
-      "keywords": ["ladli behna", "mp", "mahila", "women", "1250"]
+      "keywords": [
+        "ladli behna",
+        "mp",
+        "mahila",
+        "women",
+        "1250"
+      ]
     },
     {
       "id": "pm-awas-yojana-gramin",
@@ -346,12 +565,27 @@
       "launchDate": "2016-11-20",
       "lastDate": "2026-12-31",
       "benefits": "मैदानी क्षेत्रों में ₹1.20 लाख + मनरेगा से 90 दिन की मजदूरी।",
-      "eligibility": ["ग्रामीण परिवार जिनके पास पक्का मकान नहीं है।"],
-      "documents": ["मनरेगा जॉब कार्ड", "बैंक पासबुक", "राशन कार्ड"],
-      "steps": ["आधिकारिक PMAY-G पोर्टल पर Awaassoft → Report में अपने गाँव की सूची देखें।"],
+      "eligibility": [
+        "ग्रामीण परिवार जिनके पास पक्का मकान नहीं है।"
+      ],
+      "documents": [
+        "मनरेगा जॉब कार्ड",
+        "बैंक पासबुक",
+        "राशन कार्ड"
+      ],
+      "steps": [
+        "आधिकारिक PMAY-G पोर्टल पर Awaassoft → Report में अपने गाँव की सूची देखें।"
+      ],
       "actionHint": "पोर्टल पर 'Awaassoft' → 'Report' चुनें।",
       "directApplyUrl": "https://pmayg.nic.in/",
-      "keywords": ["pmay", "awas", "gramin", "panchayat", "gaon", "makan"]
+      "keywords": [
+        "pmay",
+        "awas",
+        "gramin",
+        "panchayat",
+        "gaon",
+        "makan"
+      ]
     },
     {
       "id": "mgnrega-egramswaraj-hub",
@@ -368,12 +602,26 @@
       "launchDate": "2020-04-24",
       "lastDate": "2026-12-31",
       "benefits": "गाँव के प्रत्येक कार्य की पारदर्शी जानकारी और 100 दिन के रोजगार की गारंटी।",
-      "eligibility": ["ग्रामीण क्षेत्र का कोई भी वयस्क नागरिक।"],
-      "documents": ["निवास प्रमाण / राशन कार्ड", "बैंक खाता विवरण"],
-      "steps": ["e-GramSwaraj पोर्टल पर अपना राज्य, जिला, जनपद व ग्राम पंचायत चुनकर रिपोर्ट देखें।"],
+      "eligibility": [
+        "ग्रामीण क्षेत्र का कोई भी वयस्क नागरिक।"
+      ],
+      "documents": [
+        "निवास प्रमाण / राशन कार्ड",
+        "बैंक खाता विवरण"
+      ],
+      "steps": [
+        "e-GramSwaraj पोर्टल पर अपना राज्य, जिला, जनपद व ग्राम पंचायत चुनकर रिपोर्ट देखें।"
+      ],
       "actionHint": "पोर्टल पर 'Panchayat Profile' या 'Approved Action Plan' चुनें।",
       "directApplyUrl": "https://egramswaraj.gov.in/",
-      "keywords": ["mgnrega", "nrega", "job card", "egramswaraj", "panchayat", "budget"]
+      "keywords": [
+        "mgnrega",
+        "nrega",
+        "job card",
+        "egramswaraj",
+        "panchayat",
+        "budget"
+      ]
     },
     {
       "id": "swachh-bharat-shauchalaya",
@@ -384,18 +632,33 @@
       "department": "Panchayati Raj & Jal Shakti",
       "status": "Live",
       "title": "स्वच्छ भारत मिशन (ग्रामीण) — फ्री शौचालय योजना ₹12,000 ऑनलाइन आवेदन",
-       "summary": "ग्रामीण परिवारों को घर में शौचालय निर्माण हेतु केंद्र सरकार द्वारा ₹12,000 की सीधी आर्थिक सहायता।",
+      "summary": "ग्रामीण परिवारों को घर में शौचालय निर्माण हेतु केंद्र सरकार द्वारा ₹12,000 की सीधी आर्थिक सहायता।",
       "publishedAt": "2026-11-19T14:20:00+05:30",
       "updatedAt": "2026-11-19",
       "launchDate": "2014-10-02",
       "lastDate": "2026-12-31",
       "benefits": "शौचालय निर्माण हेतु ₹12,000 सीधे बैंक खाते में।",
-      "eligibility": ["ग्रामीण परिवार जिनके घर में शौचालय नहीं है।"],
-      "documents": ["बैंक पासबुक", "मोबाइल नंबर", "पहचान प्रमाण"],
-      "steps": ["SBM-G आधिकारिक पोर्टल पर Citizen Corner में जाकर 'Application Form for IHHL' भरें।"],
+      "eligibility": [
+        "ग्रामीण परिवार जिनके घर में शौचालय नहीं है।"
+      ],
+      "documents": [
+        "बैंक पासबुक",
+        "मोबाइल नंबर",
+        "पहचान प्रमाण"
+      ],
+      "steps": [
+        "SBM-G आधिकारिक पोर्टल पर Citizen Corner में जाकर 'Application Form for IHHL' भरें।"
+      ],
       "actionHint": "पोर्टल पर 'Citizen Corner' → 'Application Form for IHHL' चुनें।",
       "directApplyUrl": "https://sbm.gov.in/sbm_dbt/secure/login.aspx",
-      "keywords": ["shauchalaya", "toilet", "swachh bharat", "sbm", "12000", "panchayat"]
+      "keywords": [
+        "shauchalaya",
+        "toilet",
+        "swachh bharat",
+        "sbm",
+        "12000",
+        "panchayat"
+      ]
     },
     {
       "id": "pm-mudra-yojana-loan",
@@ -412,12 +675,25 @@
       "launchDate": "2015-04-08",
       "lastDate": "2026-12-31",
       "benefits": "शिशु (₹50,000), किशोर (₹5 लाख), तरुण (₹10 लाख) और तरुण प्लस (₹20 लाख तक)।",
-      "eligibility": ["कोई भी भारतीय नागरिक जो गैर-कृषि व्यवसाय शुरू करना या बढ़ाना चाहता हो।"],
-      "documents": ["व्यापार का प्रमाण / उद्याम रजिस्ट्रेशन", "पिछले 6 माह का बैंक स्टेटमेंट"],
-      "steps": ["JanSamarth पोर्टल पर Business Activity Loan चुनें और ऑनलाइन आवेदन सबमिट करें।"],
+      "eligibility": [
+        "कोई भी भारतीय नागरिक जो गैर-कृषि व्यवसाय शुरू करना या बढ़ाना चाहता हो।"
+      ],
+      "documents": [
+        "व्यापार का प्रमाण / उद्याम रजिस्ट्रेशन",
+        "पिछले 6 माह का बैंक स्टेटमेंट"
+      ],
+      "steps": [
+        "JanSamarth पोर्टल पर Business Activity Loan चुनें और ऑनलाइन आवेदन सबमिट करें।"
+      ],
       "actionHint": "JanSamarth पोर्टल पर 'Check Eligibility' पर क्लिक करें।",
       "directApplyUrl": "https://www.jansamarth.in/",
-      "keywords": ["loan", "mudra", "business", "subsidy", "bank"]
+      "keywords": [
+        "loan",
+        "mudra",
+        "business",
+        "subsidy",
+        "bank"
+      ]
     },
     {
       "id": "pmegp-business-loan-subsidy",
@@ -434,12 +710,27 @@
       "launchDate": "2008-08-15",
       "lastDate": "2026-12-31",
       "benefits": "ग्रामीण क्षेत्र में 25%–35% और शहरी क्षेत्र में 15%–25% तक मार्जिन मनी सब्सिडी।",
-      "eligibility": ["18 वर्ष से अधिक आयु के भारतीय नागरिक (₹10 लाख+ प्रोजेक्ट हेतु 8वीं पास)।"],
-      "documents": ["प्रोजेक्ट रिपोर्ट", "बैंक खाता व निवास प्रमाण"],
-      "steps": ["KVIC के आधिकारिक PMEGP e-Portal पर जाएं और Application for New Unit भरें।"],
+      "eligibility": [
+        "18 वर्ष से अधिक आयु के भारतीय नागरिक (₹10 लाख+ प्रोजेक्ट हेतु 8वीं पास)।"
+      ],
+      "documents": [
+        "प्रोजेक्ट रिपोर्ट",
+        "बैंक खाता व निवास प्रमाण"
+      ],
+      "steps": [
+        "KVIC के आधिकारिक PMEGP e-Portal पर जाएं और Application for New Unit भरें।"
+      ],
       "actionHint": "पोर्टल पर 'Application For New Unit' पर क्लिक करें।",
       "directApplyUrl": "https://www.kviconline.gov.in/pmegpeportal/",
-      "keywords": ["pmegp", "loan", "subsidy", "35%", "business", "kvic", "msme"]
+      "keywords": [
+        "pmegp",
+        "loan",
+        "subsidy",
+        "35%",
+        "business",
+        "kvic",
+        "msme"
+      ]
     },
     {
       "id": "kisan-credit-card-kcc",
@@ -456,12 +747,26 @@
       "launchDate": "1998-08-01",
       "lastDate": "2026-12-31",
       "benefits": "समय पर भुगतान करने पर केवल 4% वार्षिक ब्याज दर।",
-      "eligibility": ["कृषि भूमि मालिक, बटाईदार किसान व पशुपालक।"],
-      "documents": ["भूमि की खतौनी", "बैंक खाता विवरण"],
-      "steps": ["JanSamarth पोर्टल या नजदीकी बैंक शाखा में KCC के लिए आवेदन करें।"],
+      "eligibility": [
+        "कृषि भूमि मालिक, बटाईदार किसान व पशुपालक।"
+      ],
+      "documents": [
+        "भूमि की खतौनी",
+        "बैंक खाता विवरण"
+      ],
+      "steps": [
+        "JanSamarth पोर्टल या नजदीकी बैंक शाखा में KCC के लिए आवेदन करें।"
+      ],
       "actionHint": "JanSamarth पर 'Agri Infrastructure / KCC' चुनें।",
       "directApplyUrl": "https://www.jansamarth.in/",
-      "keywords": ["kcc", "kisan", "credit card", "loan", "agriculture", "4%"]
+      "keywords": [
+        "kcc",
+        "kisan",
+        "credit card",
+        "loan",
+        "agriculture",
+        "4%"
+      ]
     },
     {
       "id": "ssc-gd-constable-archive-2025",
@@ -478,12 +783,25 @@
       "launchDate": "2025-09-05",
       "lastDate": "2025-10-14",
       "benefits": "पे लेवल-3 (₹21,700 – ₹69,100)।",
-      "eligibility": ["10वीं उत्तीर्ण भारतीय नागरिक।"],
-      "documents": ["10वीं मार्कशीट", "जाति प्रमाण पत्र"],
-      "steps": ["आवेदन की अंतिम तिथि समाप्त हो चुकी है। यह रिकॉर्ड संदर्भ के लिए सुरक्षित है।"],
+      "eligibility": [
+        "10वीं उत्तीर्ण भारतीय नागरिक।"
+      ],
+      "documents": [
+        "10वीं मार्कशीट",
+        "जाति प्रमाण पत्र"
+      ],
+      "steps": [
+        "आवेदन की अंतिम तिथि समाप्त हो चुकी है। यह रिकॉर्ड संदर्भ के लिए सुरक्षित है।"
+      ],
       "actionHint": "नए अपडेट और रिजल्ट के लिए SSC पोर्टल देखें।",
       "directApplyUrl": "https://ssc.gov.in/",
-      "keywords": ["ssc", "gd", "police", "archive", "constable"]
+      "keywords": [
+        "ssc",
+        "gd",
+        "police",
+        "archive",
+        "constable"
+      ]
     }
   ]
 }
