@@ -1,0 +1,31 @@
+name: BharatSetu Auto-Publisher
+
+on:
+  schedule:
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-portal:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Run Auto-Publisher
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          SITE_URL: ${{ secrets.SITE_URL }}
+        run: node scripts/news-auto-publisher.mjs
+      - name: Commit & Push Updates
+        run: |
+          git config user.name "BharatSetu Bot"
+          git config user.email "bot@bharatsetu.live"
+          git add data/portal-data.json sitemap.xml
+          git diff --staged --quiet || git commit -m "chore: auto-update portal data & sitemap"
+          git push
+          
